@@ -15,3 +15,15 @@ Check this step by opening a NEW terminal window and entering the command 'pytho
 **Up-to-date Pip**
 
 With this version of Python, you probably have a pip around version 8. Get the most current version by entering the command 'python -m pip install --upgrade pip'
+
+
+## To Run:
+
+1. Clone or Download this repository somewhere onto your computer
+2. Open commandline and navigate to the directory with this repository
+3. Ensure your python and pip versions are correct ("python -V" and "python -m pip install --upgrade pip")
+4. Install the requirements. This can be done with "pip install -r requirements.txt"
+5. Run the program with the command "python mandelbro.py"
+6. View your created image with the command "out.bmp"
+7. Edit the sharpness of the image by increasing or decreasing the x line "for i in range(<x>): step.run()"
+8. Rerun to get new image
