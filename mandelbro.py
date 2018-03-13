@@ -37,5 +37,5 @@ if __name__ == '__main__':
 	#       less simple, ways to do this.
 	#
 	step = tf.group(zs.assign(zs_),ns.assign_add(tf.cast(not_diverged, tf.float32)))
-	for i in range(2): step.run()
+	for i in range(200): step.run()
 	DisplayFractal(ns.eval())
