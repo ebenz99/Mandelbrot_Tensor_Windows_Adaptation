@@ -3,7 +3,7 @@ A Tensorflow Mandelbrot tutorial adapted to work for Windows
 
 TensorFlow is a software library created by Google for numerical computation and machine learning. It can be hard to pick up as an amateur programmer, but a tutorial is available at https://www.tensorflow.org/tutorials/mandelbrot for Linux and Mac users. I've attempted to adapt that tutorial for those working with Windows and Windows command line software.
 
-***Prerequisites:***
+## Prerequisites:
 
 
 **Python 3.5.2**
